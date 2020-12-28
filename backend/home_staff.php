@@ -75,7 +75,7 @@ if (isset($_POST['readStaffData'])) {
                     <th>#</th>
                     <th>Tên</th>
                     <th>
-                    <select id="department" onchange="filter(this.value);" style="font-size: 15px;">
+                    <select onchange="filter(this.value);" style="font-size: 15px;">
                         <option value="" '.isSelected($department, 0).'>Toàn bộ</option>
                         <option value="cashier" '.isSelected($department, 1).'>Thu ngân</option>
                         <option value="manager" '.isSelected($department, 2).'>Quản lý</option>
